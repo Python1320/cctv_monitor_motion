@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=dpms_idle_forcer
+Exec=dpms_idle_forcer 60
+StartupNotify=false
+Terminal=true
