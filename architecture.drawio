@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T18:14:46.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.0.4" etag="gb84btCIhvnV4r_8BaUV" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T18:33:40.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="Owchn9XHzYPxX1p_kFGb" version="22.0.4" type="github">
   <diagram name="Sivu-1" id="Zd2BdplvDdUA9KKNvMrX">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-9" value="&lt;div&gt;V-USB&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-1" target="uq50GmPEVTzvTQjhMF8e-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="100" />
+              <mxPoint x="210" y="100" />
+              <mxPoint x="210" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-1" value="&lt;div&gt;&lt;span&gt;&lt;a href=&quot;http://digistump.com/products/1&quot;&gt;Digistump&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;a href=&quot;http://digistump.com/products/1&quot;&gt;&amp;nbsp;attiny85&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-3" value="signal to P2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-2" target="uq50GmPEVTzvTQjhMF8e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-2" value="&lt;div&gt;&lt;a href=&quot;https://www.aliexpress.com/w/wholesale-hc-sr501.html&quot;&gt;PIR&lt;/a&gt; Motion sensor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-4" target="uq50GmPEVTzvTQjhMF8e-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-4" value="CCTV linux laptop/pc&lt;br&gt;&lt;font style=&quot;font-size: 9px; font-weight: normal;&quot;&gt;(RPI could use PIR directly)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-5" target="uq50GmPEVTzvTQjhMF8e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-5" target="uq50GmPEVTzvTQjhMF8e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-17" value="AlarmServer&lt;br&gt;protocol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-5" target="uq50GmPEVTzvTQjhMF8e-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-5" value="&lt;a href=&quot;https://www.aliexpress.com/w/wholesale-person-detection-cctv.html&quot;&gt;CCTV camera&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-6" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-7" target="uq50GmPEVTzvTQjhMF8e-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-7" target="uq50GmPEVTzvTQjhMF8e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-7" value="&lt;a href=&quot;https://github.com/bluenviron/mediamtx&quot;&gt;MediaMTX&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-8" value="DVR" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-16" value="MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq50GmPEVTzvTQjhMF8e-15" target="uq50GmPEVTzvTQjhMF8e-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="300" />
+              <mxPoint x="230" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq50GmPEVTzvTQjhMF8e-15" value="&lt;a href=&quot;https://github.com/toxuin/alarmserver&quot;&gt;Alarmserver&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
