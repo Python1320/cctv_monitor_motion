@@ -19,3 +19,6 @@ Purpose: Makes a Linux CCTV monitor turn off even in fullscreen (you should also
 make
 make install
 ```
+
+## Alternatives
+ - xprintidle and some bash
