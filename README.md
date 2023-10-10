@@ -22,3 +22,16 @@ make install
 
 ## Alternatives
  - xprintidle and some bash
+
+## Misc
+
+```bash
+#!/bin/bash
+while true;do
+
+        mpv --no-terminal --really-quiet --loop-playlist=force --loop --profile=low-latency -hwdec=vaapi --stop-screensaver=no "$HOME/.config/cams.m3u"
+        echo restarting
+        sleep 5
+done
+
+```
